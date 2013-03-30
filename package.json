@@ -1,0 +1,8 @@
+{
+    "name": "shoppinlist",
+    "description":"My shoppingList-Application",
+    "dependencies":
+    {
+        "express" : "3.x"
+    }
+}
