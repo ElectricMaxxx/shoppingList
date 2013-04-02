@@ -1,14 +1,14 @@
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-function list()
+var list =
 {
-    return function(res)
-    {
-        
-    };
+	"index" : function(req,res)
+	{
+		res.send("index im ListController");
+	},
+	"create" : function(req,res)
+	{
+		res.send("create im ListController");
+	},
+	"allowedMethods" : {"index":true,"create":true}
 }
 module.exports = list;
 
