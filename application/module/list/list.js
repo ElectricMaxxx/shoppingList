@@ -1,12 +1,17 @@
+var model = require("./model/listModel.js");
+
+
 var list =
 {
 	"index" : function(req,res)
 	{
-		res.send("index im ListController");
+		var Model = new model(req,res);
+                Model.index();
 	},
 	"create" : function(req,res)
 	{
-		res.send("create im ListController");
+		var Model = new model(req,res);
+                Model.create();
 	},
 	"allowedMethods" : {"index":true,"create":true}
 }
