@@ -1,0 +1,19 @@
+extends navfoot
+
+append content
+    if content.list&&content.list.length!="0"
+        table    
+             each item, i in content.list
+                if item.length!="0"
+                    tr
+                        each tdItem, j in item
+                            if tdItem.type&&tdItem.type=="options"
+                                td 
+                                    if tdItem.content.length!="0"
+                                        each oItem in tdItem.content
+                                             a(href="/admin/#{oItem.path}") #{oItem.label} 
+                                             &nbsp
+                            else
+                                td #{tdItem}
+    else
+        p Kein Content vorhanden.

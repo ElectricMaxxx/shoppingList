@@ -1,0 +1,12 @@
+extends navfoot
+
+append content
+    if content.form&&content.form.length!=0
+        form    
+            ul
+                each item, i in content.form
+                    li: label item.label input(type="text",value="#{item.value}")
+    else
+        p Kein Content vorhanden.
+                    
+        
