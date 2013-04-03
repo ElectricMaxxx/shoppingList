@@ -1,0 +1,28 @@
+!!!5
+html
+    head
+        title Admin-Area | ShoppingList
+    body
+        block navigation
+            #nav.nav
+                nav
+                    ul.navigation
+                        if navigation.length!=0
+                            each item, i in navigation
+                                li: a(href='/admin/#{item.path}') #{item.label}
+                        else
+                            | keine Navigation vorhanden
+            
+        block content
+            #content.content
+            if content.name
+               | #{content.name}
+            else
+               | Leider ist kein Content vorhanden
+
+        block footer
+            #footer.footer
+            if footer
+                #{footer}
+            else
+                kein Footer vorhanden
