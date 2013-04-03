@@ -1,0 +1,5 @@
+{
+    "name": "mycradle",
+    "version" : "0.0.1",
+    "main"      : "./cradleAdapter.js"
+}

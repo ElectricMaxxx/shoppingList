@@ -1,0 +1,1 @@
+Readmea für meinen CradleAdapter
