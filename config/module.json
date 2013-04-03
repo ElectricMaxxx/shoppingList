@@ -1,7 +1,7 @@
 {
     
-    "list": {"path":"list/node_modules/list.js","file":"list.js","name":"list"},
-    "rezept": {"path":"rezept/node_modules/rezept.js","file":"rezept.js","name":"rezept"}
+    "list": true,
+    "rezept": true
     
 
 }
