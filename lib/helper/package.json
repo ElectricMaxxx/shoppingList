@@ -1,0 +1,6 @@
+{
+    "name": "helper",
+     "description": "many different functions in one",
+     "version": "0.0.1",
+     "main" : "./helper.js"
+}

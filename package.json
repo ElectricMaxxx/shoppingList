@@ -4,10 +4,14 @@
     "dependencies":
     {
         "express"       : 	"3.x",
+        "forever"       :       "0.10.0",
 	"cradle"	:	"0.6.5",
 	"jade"		:	"0.28.2",
 	"stylus" 	:	"0.32.1",
         "list"          :       "0.0.1",
-        "rezept"        :       "0.0.1"
+        "rezept"        :       "0.0.1",
+        "model"         :       "0.0.1",
+        "node-assertthat" :     "0.0.17",
+        "helper"        :       "0.0.1"
     }
 }

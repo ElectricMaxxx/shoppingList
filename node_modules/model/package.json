@@ -1,0 +1,6 @@
+{
+    "name"          :       "model",
+    "description"   :       "To do all the that every model has to do, i create a 'superclass' model wich i will inherit in every model",
+    "version"       :       "0.0.1",
+    "main"          :       "./model.js"
+}
