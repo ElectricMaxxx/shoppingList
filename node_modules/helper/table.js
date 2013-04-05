@@ -111,7 +111,6 @@ function table()
     };
     var getLineOption = function(id,active)
     {
-        console.log(active);
         var tpl = {"type":"options","content":[]};
         for(i in option)
             {
